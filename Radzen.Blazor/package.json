@@ -1,0 +1,23 @@
+{
+  "name": "radzen.blazor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-util": "^3.0.8",
+    "postcss": "^8.4.13",
+    "postcss-purgecss": "^2.0.3",
+    "sass": "^1.51.0",
+    "cssnano": "^5.1.7"
+  }
+}
