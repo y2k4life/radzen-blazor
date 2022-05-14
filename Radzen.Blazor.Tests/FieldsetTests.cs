@@ -14,6 +14,10 @@ namespace Radzen.Blazor.Tests
 
             var component = ctx.RenderComponent<RadzenFieldset>();
 
+            var value = "MyHeaderTemplate";
+
+            component.SetParametersAndRender(parameters => parameters.Add(p => p.HeaderTemplate, value));
+
             component.Render();
 
             Assert.Contains(@$"rz-fieldset", component.Markup);
